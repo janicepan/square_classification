@@ -19,7 +19,7 @@ line_type = 2
 ## Load the dataset dictionary
 root_dir = os.getcwd()
 dataset_name = "squares"
-image_size = [256, 256]
+image_size = [128, 128]
 image_size_tag = "{}x{}".format(image_size[0], image_size[1])
 
 visualization_dir = os.path.join(root_dir, "visualize_{}_{}".format(dataset_name, image_size_tag))
